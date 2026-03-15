@@ -53,6 +53,41 @@ This documentation supports both:
 - Analytics teams
 
 ---
+### BI: Analytics & Reporting (Data Analysis)
+
+#### Objective
+Develop SQL-based analytics to deliver detailed insights into:
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
+
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+
+For more details, refer to [docs/requirements.md](docs/requirements.md).
+
+-----
+
+## 🏗️ Data Architecture
+
+![Data Architecture](docs/data_architecture.png)
+
+The data architecture for this project follows the **Medallion Architecture**, which organizes data into three layers: **Bronze, Silver, and Gold**.
+
+### 🥉 Bronze Layer (Raw Data Layer)
+The Bronze layer stores raw data exactly as it is received from the source systems.  
+In this project, data is ingested from **CSV files** and loaded directly into a **SQL Server database** without transformations.  
+This layer acts as the historical record of the source data.
+
+### 🥈 Silver Layer (Cleaned and Standardized Data)
+The Silver layer is responsible for data cleansing, transformation, and normalization.  
+In this stage, inconsistencies, missing values, and formatting issues are resolved.  
+The data is standardized and structured to ensure accuracy and consistency for downstream processes.
+
+### 🥇 Gold Layer (Business-Ready Data)
+The Gold layer contains curated, business-ready datasets optimized for analytics and reporting.  
+Data in this layer is modeled using a **Star Schema**, making it suitable for business intelligence tools and analytical queries.
+
+
 
 # License
 
