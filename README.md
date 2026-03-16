@@ -126,5 +126,20 @@ You are free to:
 - Use
 - Modify
 - Share
+------
 
-the project, provided that **proper attribution** is given to the original author.
+# 🌟 About Me
+
+Hi, I'm **Bahgat Zakaria** 👋
+
+I am a **Data Engineering enthusiast** with a strong interest in building **Data Warehouses** and **ETL pipelines**.
+
+I enjoy working with data, transforming **raw datasets** into **structured and meaningful insights**.
+
+🎯 **My Goal**  
+My goal is to become a **professional Data Engineer** and build **scalable data systems**.
+
+
+## 🔗 Connect with Me
+
+- LinkedIn: [Bahgat Zakaria](https://www.linkedin.com/in/amir-zakaria-70a03a295?utm_source=share_via&utm_content=profile&utm_medium=member_android)
