@@ -1,3 +1,6 @@
+![SQL Server](https://img.shields.io/badge/SQL%20Server-Data%20Warehouse-red)
+![Architecture](https://img.shields.io/badge/Architecture-Medallion-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 # Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** repository!
@@ -184,7 +187,7 @@ data-warehouse-project/
 │   ├── silver/                         # Scripts for cleaning and transforming data
 │   ├── gold/                           # Scripts for creating analytical models
 │
-├── tests/                              # Test scripts and quality files
+├── tests/                               # Data quality tests and validation scripts
 │
 ├── README.md                           # Project overview and instructions
 ├── LICENSE                             # License information for the repository
