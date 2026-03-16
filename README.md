@@ -88,6 +88,42 @@ The Gold layer contains curated, business-ready datasets optimized for analytics
 Data in this layer is modeled using a **Star Schema**, making it suitable for business intelligence tools and analytical queries.
 
 ------
+## 🔗 Data Integration
+
+![Data Integration](docs/data_integration.png)
+
+This diagram illustrates how data from the **CRM** and **ERP** systems is integrated.
+
+The CRM system provides transactional sales data, customer information, and product details, while the ERP system provides additional product categories, customer attributes, and location data.
+
+These datasets are joined using common keys such as **product identifiers** and **customer identifiers** to create a unified data foundation for downstream analytics.
+-----
+## ⭐ Data Model (Sales Data Mart)
+
+![Data Model](docs/data_model.png)
+
+The Gold layer contains the **Sales Data Mart**, modeled using a **Star Schema** to support analytical queries.
+
+The central **fact_sales** table stores transactional sales data, including order information, sales amount, quantity, and price.
+
+Two dimension tables provide descriptive context:
+
+- **dim_customers** – Contains customer attributes such as name, country, gender, and birthdate.
+- **dim_products** – Contains product details including category, subcategory, product line, and cost.
+
+This design improves query performance and simplifies reporting and business intelligence analysis.
+----
+## 🔄 Data Flow
+
+![Data Flow](docs/data_flow.png)
+
+This diagram shows the overall data flow within the data warehouse architecture.
+
+Data is first ingested from the **CRM** and **ERP** source systems into the **Bronze Layer**, where raw data is stored.
+
+The data is then cleaned, standardized, and transformed in the **Silver Layer**.
+
+Finally, curated datasets are created in the **Gold Layer**, where the data is modeled into a **star schema** to support analytics and reporting.
 
 ## 📂 Repository Structure
 ```
