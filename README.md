@@ -6,14 +6,8 @@ This project demonstrates an end-to-end **Data Warehouse and Analytics solution*
 
 The project is designed as a **portfolio project** to showcase practical skills in **Data Engineering, Data Modeling, and SQL Analytics**, following industry best practices.
 ---
-## 🛠️ Tech Stack
-- **SQL Server** – Data Warehouse implementation
-- **SQL** – Data transformation and analytics
-- **Draw.io** – Architecture and data modeling diagrams
-- **CSV Files** – Source data format
-- **Git & GitHub** – Version control and project collaboration
-## 📑 Table of Contents
 
+## 📑 Table of Contents
 - [Tech Stack](#-tech-stack)
 - [Project Requirements](#project-requirements)
 - [Data Warehouse Workflow](#-data-warehouse-workflow)
@@ -26,6 +20,15 @@ The project is designed as a **portfolio project** to showcase practical skills 
 - [License](#license)
 - [About Me](#-about-me)
 
+
+
+## 🛠️ Tech Stack
+- **SQL Server** – Data Warehouse implementation
+- **SQL** – Data transformation and analytics
+- **Draw.io** – Architecture and data modeling diagrams
+- **CSV Files** – Source data format
+- **Git & GitHub** – Version control and project collaboration
+-------
 # Project Requirements
 
 ## 1. Building the Data Warehouse (Data Engineering)
