@@ -5,8 +5,26 @@ Welcome to the **Data Warehouse and Analytics Project** repository!
 This project demonstrates an end-to-end **Data Warehouse and Analytics solution**, starting from data ingestion and transformation to generating analytical insights.
 
 The project is designed as a **portfolio project** to showcase practical skills in **Data Engineering, Data Modeling, and SQL Analytics**, following industry best practices.
-
 ---
+## 🛠️ Tech Stack
+- **SQL Server** – Data Warehouse implementation
+- **SQL** – Data transformation and analytics
+- **Draw.io** – Architecture and data modeling diagrams
+- **CSV Files** – Source data format
+- **Git & GitHub** – Version control and project collaboration
+## 📑 Table of Contents
+
+- [Tech Stack](#-tech-stack)
+- [Project Requirements](#project-requirements)
+- [Data Warehouse Workflow](#-data-warehouse-workflow)
+- [Data Architecture](#-data-architecture)
+- [Data Integration](#-data-integration)
+- [Data Model](#-data-model-sales-data-mart)
+- [Data Flow](#-data-flow)
+- [ETL Pipeline](#-etl-pipeline)
+- [Repository Structure](#-repository-structure)
+- [License](#license)
+- [About Me](#-about-me)
 
 # Project Requirements
 
@@ -66,7 +84,12 @@ These insights empower stakeholders with key business metrics, enabling strategi
 For more details, refer to [docs/requirements.md](docs/requirements.md).
 
 -----
+## ⚙️ Data Warehouse Workflow
 
+The project follows a layered **Medallion Architecture** approach:
+1. **Bronze Layer** – Raw data ingestion from CSV files
+2. **Silver Layer** – Data cleaning, transformation, and standardization
+3. **Gold Layer** – Analytical data model using Star Schema
 ## 🏗️ Data Architecture
 
 ![Data Architecture](docs/data_architecture.png)
@@ -125,6 +148,20 @@ The data is then cleaned, standardized, and transformed in the **Silver Layer**.
 
 Finally, curated datasets are created in the **Gold Layer**, where the data is modeled into a **star schema** to support analytics and reporting.
 
+## ⚙️ ETL Pipeline
+
+![ETL Pipeline](docs/ETL.png)
+
+This diagram illustrates the **ETL (Extract, Transform, Load) pipeline** used to process data from operational systems into the analytical warehouse.
+
+- **Extract** – Data is extracted from the source systems (**CRM** and **ERP**) in the form of CSV files.
+
+- **Transform** – Data is cleaned, standardized, and transformed through multiple processing stages to ensure consistency and quality.
+
+- **Load** – The transformed data is loaded into the **SQL Server Data Warehouse**, following the **Bronze, Silver, and Gold** layered architecture.
+
+This pipeline ensures that raw operational data is converted into structured, high-quality datasets ready for analytical queries and business intelligence.
+
 ## 📂 Repository Structure
 ```
 data-warehouse-project/
@@ -132,7 +169,7 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
+│   ├── etl.drawio                      # shows ETL techniques and pipeline design
 │   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
@@ -173,7 +210,7 @@ I am a **Data Engineering enthusiast** with a strong interest in building **Data
 I enjoy working with data, transforming **raw datasets** into **structured and meaningful insights**.
 
 🎯 **My Goal**  
-My goal is to become a **professional Data Engineer** and build **scalable data systems**.
+My goal is to become a **professional Data Engineer** and build **scalable, reliable data platforms** that support data-driven decision making.
 
 ## 🔗 Connect with Me
 
