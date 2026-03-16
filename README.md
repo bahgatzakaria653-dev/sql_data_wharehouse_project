@@ -143,6 +143,4 @@ My goal is to become a **professional Data Engineer** and build **scalable data 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amir-zakaria-70a03a295?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
-## 🔗 Connect with Me
 
-- LinkedIn: [Bahgat Zakaria](https://www.linkedin.com/in/amir-zakaria-70a03a295?utm_source=share_via&utm_content=profile&utm_medium=member_android)
